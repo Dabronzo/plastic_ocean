@@ -1,0 +1,14 @@
+body{
+    background: url("../images/ocean_depth.jpeg") no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+#shallow{
+    height: 600px;
+}
+#middle{
+    height: 600px;
+}
+#bottom{
+    height: 600px;
+}
