@@ -54,6 +54,7 @@ h1{
     background:url("../images/rsz_pexels-jeremy-bishop-2765872.jpg") no-repeat center center;
     background-size: cover;
     margin: inherit;
+    box-shadow: 20px 20px 50px 10px black inset
 
 }
 
