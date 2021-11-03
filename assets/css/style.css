@@ -275,6 +275,10 @@ footer ul > li{
     display: inline-block;
     font-size: 200%;
     color:#fff;
+    margin:0 auto;
+    padding: 30px; 
+
+
 }
 
 
