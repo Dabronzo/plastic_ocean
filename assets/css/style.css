@@ -194,6 +194,34 @@ li:hover, a:hover{
 
 }
 
+#activities_cotnainer div{
+    color:#fff;
+    background-color:rgba(0, 0, 0, .6);
+    width:33.33%;
+    height:400px;
+    float:left;
+    text-align: center;
+    border: 2px solid rgb(10, 9, 105);
+    box-sizing: border-box;
+    padding:50px 0 20px 0 
+}
+
+#activities_cotnainer h2{
+    color: #fff;
+    padding-bottom: 50px;
+    font-weight: bolder;
+    font-size: 250%;
+}
+#activities_cotnainer h3{
+    padding:15px;
+    font-size: 150%;
+    
+
+
+}
+
+
+
 
 
 /*Animations testing*/
