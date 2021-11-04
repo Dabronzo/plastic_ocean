@@ -327,12 +327,13 @@ footer ul i{
 
     .circle_container{
         clear:both;
+        margin:0 auto;
         
 
     }
 
     #middle{
-        height:1200px;
+        height:100%;
         margin: 0 auto;
 
     }
@@ -407,12 +408,44 @@ footer ul i{
     
 }
 
+@media screen and (max-width:778px) {
+    #middle{
+        height:1000px;
+    }
+
+    #hero_pic{
+        width:103%;
+    }
+
+    #activities_cotnainer{
+        width:103%;
+    }
+    
+    
+}
+
 @media screen and (max-width:450px) {
     #middle{
-        height:100%;
+        height:1500px;
+        padding-left:0px;
+        padding-right:0px;
+        width:108%;
 
     }
     
+    
+}
+
+/*Really Small screens*/
+@media screen and (max-width:425px) {
+
+    #hero_pic{
+        width: 108%;
+    }
+
+    #activities_cotnainer{
+        width:108%;
+    }
     
 }
 
