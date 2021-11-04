@@ -320,6 +320,13 @@ footer ul i{
 /*Media Query*/
 
 @media screen and (max-width:1200px) {
+    #hero_pic{
+        width: 102%;
+    }
+    #activities_cotnainer{
+        width:102%;
+    }
+
     #left_part, #right_part{
         width: 100%;
         float:left;
@@ -346,6 +353,8 @@ footer ul i{
         text-align: center;
     }
 }
+
+
 
 @media screen and (max-width:900px) {
     #activities_cotnainer div{
@@ -414,11 +423,17 @@ footer ul i{
     }
 
     #hero_pic{
-        width:103%;
+        width:105%;
     }
 
     #activities_cotnainer{
-        width:103%;
+        width:105%;
+    }
+
+    footer{
+        
+        width:104%;
+
     }
     
     
