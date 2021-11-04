@@ -330,6 +330,62 @@ footer ul i{
     
 }
 
+@media screen and (max-width:850px) {
+    #logo{
+        color:rgb(10, 9, 105);
+        background-color: #fff;
+        font-weight: balder;
+        clear:both;
+        text-align: center;
+        margin: 0 auto;
+
+
+
+    }
+
+    #menu{
+        clear:both;
+        float:left;
+        margin-left:30px;
+        margin-bottom:20px;
+        line-height: 25px;
+
+    }
+
+    #menu a {
+        padding:0;
+
+    }
+
+    #contact_boxes{
+        margin:0 auto;
+        
+    }
+
+    #phonemail_box, #adress_box{
+        float:none;
+        margin-top:30px;
+        text-align: center;
+
+
+    }
+
+    #contact_boxes hr{
+        width: 100%;
+    }
+
+    
+}
+
+@media screen and (max-width:450px) {
+    #middle{
+        height:100%;
+
+    }
+    
+    
+}
+
 
 
 
