@@ -35,7 +35,7 @@ h1, h2{
 
 hr{
     border-top: 1px solid #fff;
-    width:40%;
+    width:80%;
     margin: 5px 0 10px 0;
 
 
@@ -106,9 +106,7 @@ hr{
 #menu a{
     padding:5px;
     text-decoration: none;
-    color:inherit;
     font-weight: bold;
-
 
 }
 
@@ -359,13 +357,16 @@ footer ul i{
 
     #contact_boxes{
         margin:0 auto;
+        padding:0;
+        
         
     }
 
     #phonemail_box, #adress_box{
         float:none;
-        margin-top:30px;
+        margin:30px auto;
         text-align: center;
+        
 
 
     }
