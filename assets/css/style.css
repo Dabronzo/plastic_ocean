@@ -187,7 +187,7 @@ li:hover, a:hover{
 
 /*Activities*/
 #activities_cotnainer{
-    background:url('../images/mark-harpur-foydNaDU-Rg-unsplash-min.jpg') no-repeat center center fixed;
+    background:url('../images/mark-harpur-foydNaDU-Rg-unsplash-min.jpg') no-repeat center center;
     background-color:rgb(66, 85, 255);
     background-blend-mode: lighten;
     background-size:cover;
