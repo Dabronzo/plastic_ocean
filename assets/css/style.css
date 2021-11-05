@@ -289,6 +289,7 @@ footer ul i{
 /*Styling for the form*/
 
 #main_form{
+    width:100%;
     height: 1200px;
     background: url('../images/pexels-kindel-media-7148439.jpg') no-repeat center center;
     background-size: cover;
@@ -316,6 +317,7 @@ footer ul i{
     opacity: 0;
 
 }
+/*Animation for the form*/
 
 @keyframes ani1{
     100%{
@@ -375,7 +377,7 @@ label{
 
 .submit_button:hover{
     border: 3px solid #fff;
-    
+
 
 }
 
@@ -422,6 +424,11 @@ label{
 
 
 @media screen and (max-width:900px) {
+
+
+    /*Queries for the home*/
+
+
     #activities_cotnainer div{
         width:100%;
         clear:both;
@@ -433,6 +440,14 @@ label{
 }
 
 @media screen and (max-width:850px) {
+    
+    /*Queries for the form*/
+
+    #main_form{
+        width:104%;
+
+    }
+    
     #logo{
         color:rgb(10, 9, 105);
         background-color: #fff;
@@ -483,6 +498,10 @@ label{
 }
 
 @media screen and (max-width:778px) {
+    #cover_box{
+        height:800px;
+    }
+
     #middle{
         height:1000px;
     }
@@ -512,12 +531,22 @@ label{
         width:108%;
 
     }
+
+    #cover_box{
+        width:98%;
+        height:800px;
+    }
     
     
 }
 
 /*Really Small screens*/
 @media screen and (max-width:425px) {
+
+    #cover_box{
+        width:98%;
+        height:800px;
+    }
 
     #hero_pic{
         width: 108%;
