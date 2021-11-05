@@ -301,17 +301,82 @@ footer ul i{
 }
 
 #cover_box{
-    width:60%;
-    height: 400px;
+    width:50%;
+    height: 600px;
     align-items: center;
     position: absolute;
-    top:30%;
+    top:34%;
     left:50%;
     background-color: rgba(10, 9, 105, .33);
     backdrop-filter: blur(5px);
     box-shadow: 4px 4px rgba(0, 0, 0, .33);
     transform: translate(-50%, -50%);
     border-radius: 8px;
+    animation: ani1 1s ease-out forwards;
+    opacity: 0;
+
+}
+
+@keyframes ani1{
+    100%{
+        opacity: 1;
+    }
+}
+
+#signup_form{
+    padding:60px;
+}
+
+#cover_box > h2{
+    font-size: 200%;
+    text-align: center;
+    margin-top:10px;
+
+}
+
+#signup_form h2{
+    text-align: center;
+    margin-bottom:10px;
+}
+
+label{
+    color:#fff;
+    font-size: 120%;
+
+}
+
+.text_input{
+    color:#fff;
+    background:transparent;
+    width:100%;
+    border:2px solid #fff;
+    height:25px;
+    margin:8px 0 25px 0;
+    border-radius:5px;
+}
+
+
+
+.text_input:hover{
+    border-color:rgb(10, 9, 105);
+
+}
+
+.submit_button{
+    color:rgb(10, 9, 105);
+    font-size: 150%;
+    padding:15px;
+    display: block;
+    margin-top:2.5rem;
+    background-color: rgb(172, 170, 248);
+    border-radius: 5px;
+
+}
+
+.submit_button:hover{
+    border: 3px solid #fff;
+    
+
 }
 
 /*Animations testing*/
