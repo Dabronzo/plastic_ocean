@@ -99,16 +99,26 @@ hr{
 #menu li{
     float:right;
     list-style-type: none;
-    padding:0 10px 0 10px;
+    padding:0;
 
 }
 
-#menu a{
-    padding:5px;
+.nav_button{
+    padding:25px 10px;
     text-decoration: none;
     font-weight: bold;
+    color:inherit;
+}
+/*
+#menu a{
+    padding:25px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color:inherit;
 
 }
+*/
+
 
 /*Making the menu and logo same line*/
 
@@ -290,8 +300,8 @@ footer ul i{
 
 #main_form{
     width:100%;
-    height: 1200px;
-    background: url('../images/pexels-kindel-media-7148439.jpg') no-repeat center center;
+    height: 900px;
+    background: url('../images/together_beach_smaller.jpg') no-repeat center center;
     background-size: cover;
     background-color:rgb(10, 9, 105);
     background-blend-mode:luminosity;
@@ -306,7 +316,7 @@ footer ul i{
     height: 600px;
     align-items: center;
     position: absolute;
-    top:34%;
+    top:40%;
     left:50%;
     background-color: rgba(10, 9, 105, .33);
     backdrop-filter: blur(5px);
@@ -463,16 +473,22 @@ label{
     #menu{
         clear:both;
         float:left;
-        margin-left:30px;
-        margin-bottom:20px;
+        margin-left:0px;
+        margin-bottom:0px;
         line-height: 25px;
 
     }
+
+    .nav_button{
+        padding:0; 
+    }
+    /*
 
     #menu a {
         padding:0;
 
     }
+    */
 
     #contact_boxes{
         margin:0 auto;
@@ -498,8 +514,13 @@ label{
 }
 
 @media screen and (max-width:778px) {
+    #menu li{
+        padding:10px;
+    }
+
     #cover_box{
         height:800px;
+        top:50%;
     }
 
     #middle{
@@ -533,8 +554,13 @@ label{
     }
 
     #cover_box{
-        width:98%;
+        width:100%;
         height:800px;
+        
+    }
+    #logo{
+        width:100%;
+        padding: 0;
     }
     
     
@@ -544,7 +570,7 @@ label{
 @media screen and (max-width:425px) {
 
     #cover_box{
-        width:98%;
+        width:100%;
         height:800px;
     }
 
@@ -557,6 +583,15 @@ label{
     }
     
 }
+
+@media screen and (max-width:375px){
+    #logo{
+        font-size: 160%;
+
+    }
+}
+
+
 
 
 
