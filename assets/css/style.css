@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&display=swap');
 
-
-
 *{
     margin:0;
     padding:0;
@@ -13,15 +11,12 @@ body{
     background-color:#fff;
     color:black;
     margin:0;
-
-  
-
-
 }
 
 a{
     text-decoration: none;
 }
+
 header{
     overflow: hidden;
 }
@@ -30,16 +25,12 @@ h1, h2{
     font-family: Montserrat, sans-serif;
     color:#fff;
     text-transform: uppercase;
-
 }
 
 hr{
     border-top: 1px solid #fff;
     width:80%;
     margin: 5px 0 10px 0;
-
-
-
 }
 
 #logo{
@@ -47,21 +38,15 @@ hr{
     background-color: rgb(10, 9, 105);
     font-size: 200%;
     padding:0 20px 0 20px;
-
-
-
 }
-
-
 
 #outer_hero{
     width: 100%;
     height:600px;
     margin:0 auto;
-
-
-
+    position: relative;
 }
+
 #hero_pic{
     width:100%;
     height: 600px;
@@ -69,8 +54,9 @@ hr{
     background-size: cover;
     margin: inherit;
     position: relative;
+    background-color: rgb(10, 9, 105);
+    background-blend-mode:lighten;
 
-    
 
 }
 
@@ -82,12 +68,60 @@ hr{
     top: 300px;
     background-image: linear-gradient(
      rgba(10, 9, 105, 0),
-     rgba(10, 9, 105, 0.4),
+     rgba(9, 8, 43, 0.4),
      rgba(10, 9, 105,.7),
      rgba(10, 9, 105,1));
+}
 
+/*cover box front page*/
+
+#coverbox_front{
+    position: absolute;
+    left:8%;
+    top:160px;
+    height:200px;
+    width: 100%;
+    background-color: rgba(10, 9, 105, 0.6);
+    padding-left:3%;
+    padding-top:30px;
+    animation: ani_hero 0.6s forwards;
+}
+
+#coverbox_front h3{
+    font-size:160%;
+    color:#fff;
+    margin-top:14px;
+    animation: ani_head3 3s forwards;
 
 }
+
+#coverbox_front h2 {
+    font-size: 250%;
+    
+}
+
+/*animation for hero pic*/
+
+@keyframes ani_hero{
+    0%{
+        left:50%;
+    }
+    100%{
+        left:8%;
+    }
+}
+@keyframes ani_head3{
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 
 /*Header Menu*/
 
@@ -100,7 +134,6 @@ hr{
     float:right;
     list-style-type: none;
     padding:0;
-
 }
 
 .nav_button{
@@ -109,34 +142,21 @@ hr{
     font-weight: bold;
     color:inherit;
 }
-/*
-#menu a{
-    padding:25px 10px;
-    text-decoration: none;
-    font-weight: bold;
-    color:inherit;
-
-}
-*/
-
 
 /*Making the menu and logo same line*/
 
 #menu, h1{
     line-height: 85px;
-
 }
 
 /*Creating a selected UI*/
 
 .selected{
     background-color: rgb(10, 9, 105);
-
 }
 
 .selected > a{
     color:#fff;
-
 }
 
 li:hover, a:hover{
@@ -145,6 +165,7 @@ li:hover, a:hover{
 }
 
 /*Middle Section*/
+
 #middle{
     width:100%;
     height:500px;
@@ -159,11 +180,11 @@ li:hover, a:hover{
     margin:0 auto;
     padding-top: 4rem;
 }
+
 #right_part{
     width: 33%;
     float:right;
     padding-top: 4rem;
-
 }
 
 .text_box{
@@ -175,7 +196,6 @@ li:hover, a:hover{
     color:#fff;
     letter-spacing: 3px;
     line-height: 40px;
-
 }
 
 /*Images on the Middle*/
@@ -185,17 +205,17 @@ li:hover, a:hover{
     width: 300px;
     margin:0 auto;
     padding-top: 4rem;
-
 }
+
 #image_rounded{
     background:url('../images/pexels-ron-lach-9034660sqr-min.jpg') no-repeat center center;
     background-size: cover;
     height:100%;
     border-radius:50%;
-
 }
 
 /*Activities*/
+
 #activities_cotnainer{
     background:url('../images/mark-harpur-foydNaDU-Rg-unsplash-min.jpg') no-repeat center center;
     background-color:rgb(66, 85, 255);
@@ -204,7 +224,6 @@ li:hover, a:hover{
     height:100%;
     width:100%;
     overflow: hidden;
-
 }
 
 #activities_cotnainer div{
@@ -217,7 +236,6 @@ li:hover, a:hover{
     border: 2px solid rgb(10, 9, 105);
     box-sizing: border-box;
     padding:50px 0 20px 0 
-
 }
 
 #activities_cotnainer h2{
@@ -237,14 +255,12 @@ li:hover, a:hover{
     width:66%;
     margin:0 auto;
     height:250px;
-
 }
 
 #adress_box{
     width:250px;
     margin-top: 10px;
     float:left;
-
 }
 
 #phonemail_box{
@@ -259,16 +275,15 @@ li:hover, a:hover{
     margin-top: 3rem;
     font-size: 230%;
     font-weight: bolder;
-
 }
+
 #contact  h3, #contact h2{
     color:rgb(10, 9, 105);
-
 }
+
 #contact hr{
     border-top:2px solid rgb(10, 9, 105);
     width:40%;
-
 }
 
 /*Footer*/
@@ -276,7 +291,6 @@ li:hover, a:hover{
 footer{
     background-color:rgb(10, 9, 105);
     height:100px;
-
 }
 
 footer ul{
@@ -285,8 +299,6 @@ footer ul{
 
 footer ul > li{
     display: inline-block; 
-
-
 }
 
 footer ul i{
@@ -306,9 +318,6 @@ footer ul i{
     background-color:rgb(10, 9, 105);
     background-blend-mode:luminosity;
     position: relative;
-    
-
-
 }
 
 #cover_box{
@@ -325,8 +334,8 @@ footer ul i{
     border-radius: 8px;
     animation: ani1 1s ease-out forwards;
     opacity: 0;
-
 }
+
 /*Animation for the form*/
 
 @keyframes ani1{
@@ -343,7 +352,6 @@ footer ul i{
     font-size: 200%;
     text-align: center;
     margin-top:10px;
-
 }
 
 #signup_form h2{
@@ -354,7 +362,6 @@ footer ul i{
 label{
     color:#fff;
     font-size: 120%;
-
 }
 
 .text_input{
@@ -367,11 +374,8 @@ label{
     border-radius:5px;
 }
 
-
-
 .text_input:hover{
     border-color:rgb(10, 9, 105);
-
 }
 
 .submit_button{
@@ -382,17 +386,11 @@ label{
     margin-top:2.5rem;
     background-color: rgb(172, 170, 248);
     border-radius: 5px;
-
 }
 
 .submit_button:hover{
     border: 3px solid #fff;
-
-
 }
-
-/*Animations testing*/
-
 
 /*Media Query*/
 
@@ -412,14 +410,11 @@ label{
     .circle_container{
         clear:both;
         margin:0 auto;
-        
-
     }
 
     #middle{
         height:100%;
         margin: 0 auto;
-
     }
 
     hr{
@@ -435,18 +430,14 @@ label{
 
 @media screen and (max-width:900px) {
 
-
     /*Queries for the home*/
-
 
     #activities_cotnainer div{
         width:100%;
         clear:both;
         height:300px;
         padding:0;
-
     }
-    
 }
 
 @media screen and (max-width:850px) {
@@ -455,19 +446,15 @@ label{
 
     #main_form{
         width:104%;
-
     }
     
     #logo{
         color:rgb(10, 9, 105);
         background-color: #fff;
-        font-weight: balder;
+        font-weight:bolder;
         clear:both;
         text-align: center;
         margin: 0 auto;
-
-
-
     }
 
     #menu{
@@ -476,41 +463,26 @@ label{
         margin-left:0px;
         margin-bottom:0px;
         line-height: 25px;
-
     }
 
     .nav_button{
         padding:0; 
     }
-    /*
-
-    #menu a {
-        padding:0;
-
-    }
-    */
-
+    
     #contact_boxes{
         margin:0 auto;
-        padding:0;
-        
-        
+        padding:0; 
     }
 
     #phonemail_box, #adress_box{
         float:none;
         margin:30px auto;
         text-align: center;
-        
-
-
     }
 
     #contact_boxes hr{
         width: 100%;
     }
-
-    
 }
 
 @media screen and (max-width:778px) {
@@ -536,34 +508,28 @@ label{
     }
 
     footer{
-        
         width:104%;
-
     }
-    
-    
 }
 
 @media screen and (max-width:450px) {
+
     #middle{
         height:1500px;
         padding-left:0px;
         padding-right:0px;
         width:108%;
-
     }
 
     #cover_box{
         width:100%;
         height:800px;
-        
     }
+
     #logo{
         width:100%;
         padding: 0;
     }
-    
-    
 }
 
 /*Really Small screens*/
@@ -581,18 +547,10 @@ label{
     #activities_cotnainer{
         width:108%;
     }
-    
 }
 
 @media screen and (max-width:375px){
     #logo{
         font-size: 160%;
-
     }
 }
-
-
-
-
-
-
