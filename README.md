@@ -42,5 +42,7 @@ The project was made just to gather people interested in keep the beach clean an
 
 ![footer with the social media links](/assets/images/footer.png)
 
+## 7 The Sign Up Page
+-
 
 
