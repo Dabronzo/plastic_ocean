@@ -41,14 +41,14 @@ hr{
     padding:0 20px 0 20px;
 }
 
-#outer_hero{
+#outer-hero{
     width: 100%;
     height:600px;
     margin:0 auto;
     position: relative;
 }
 
-#hero_pic{
+#hero-pic{
     width:100%;
     height: 600px;
     background:url("../images/rsz_pexels-jeremy-bishop-2765872.jpg") no-repeat center center;
@@ -61,7 +61,7 @@ hr{
 
 }
 
-#gradient_layer{
+#gradient-layer{
     width:100%;
     height:300px;
     position: absolute;
@@ -76,7 +76,7 @@ hr{
 
 /*cover box front page*/
 
-#coverbox_front{
+#coverbox-front{
     position: absolute;
     left:8%;
     top:160px;
@@ -88,7 +88,7 @@ hr{
     animation: ani_hero 0.6s forwards;
 }
 
-#coverbox_front h3{
+#coverbox-front h3{
     font-size:160%;
     color:#fff;
     margin-top:14px;
@@ -96,7 +96,7 @@ hr{
 
 }
 
-#coverbox_front h2 {
+#coverbox-front h2 {
     font-size: 250%;
     
 }
@@ -137,7 +137,7 @@ hr{
     padding:0;
 }
 
-.nav_button{
+.nav-button{
     padding:25px 10px;
     text-decoration: none;
     font-weight: bold;
@@ -174,20 +174,20 @@ li:hover, a:hover{
     padding-right:20px;
 }
 
-#left_part{
+#left-part{
     width:33%;
     float:left;
     margin:0 auto;
     padding-top: 4rem;
 }
 
-#right_part{
+#right-part{
     width: 33%;
     float:right;
     padding-top: 4rem;
 }
 
-.text_box{
+.text-box{
     width:80%;
     margin:0 auto;
 }
@@ -200,14 +200,14 @@ li:hover, a:hover{
 
 /*Images on the Middle*/
 
-.circle_container{
+.circle-container{
     height: 300px;
     width: 300px;
     margin:0 auto;
     padding-top: 4rem;
 }
 
-#image_rounded{
+#image-rounded{
     background:url('../images/pexels-ron-lach-9034660sqr-min.jpg') no-repeat center center;
     background-size: cover;
     height:100%;
@@ -216,7 +216,7 @@ li:hover, a:hover{
 
 /*Activities*/
 
-#activities_cotnainer{
+#activities-cotnainer{
     background:url('../images/mark-harpur-foydNaDU-Rg-unsplash-min.jpg') no-repeat center center;
     background-color:rgb(66, 85, 255);
     background-blend-mode: lighten;
@@ -226,7 +226,7 @@ li:hover, a:hover{
     overflow: hidden;
 }
 
-#activities_cotnainer div{
+#activities-cotnainer div{
     color:#fff;
     background-color:rgba(0, 0, 0, .6);
     width:33.33%;
@@ -238,32 +238,32 @@ li:hover, a:hover{
     padding:50px 0 20px 0 
 }
 
-#activities_cotnainer h2{
+#activities-cotnainer h2{
     color: #fff;
     padding-bottom: 50px;
     font-weight: bolder;
     font-size: 250%;
 }
-#activities_cotnainer h3{
+#activities-cotnainer h3{
     padding:15px;
     font-size: 150%;
 }
 
 /*Contact*/
 
-#contact_boxes{
+#contact-boxes{
     width:66%;
     margin:0 auto;
     height:250px;
 }
 
-#adress_box{
+#adress-box{
     width:250px;
     margin-top: 10px;
     float:left;
 }
 
-#phonemail_box{
+#phonemail-box{
     width:250px;
     margin-top: 10px;
     float:right;
@@ -310,7 +310,7 @@ footer ul i{
 
 /*Styling for the form*/
 
-#main_form{
+#main-form{
     width:100%;
     height: 900px;
     background: url('../images/together_beach_smaller.jpg') no-repeat center center;
@@ -320,7 +320,7 @@ footer ul i{
     position: relative;
 }
 
-#cover_box{
+#cover-box{
     width:50%;
     height: 600px;
     align-items: center;
@@ -344,17 +344,17 @@ footer ul i{
     }
 }
 
-#signup_form{
+#signup-form{
     padding:60px;
 }
 
-#cover_box > h2{
+#cover-box > h2{
     font-size: 200%;
     text-align: center;
     margin-top:10px;
 }
 
-#signup_form h2{
+#signup-form h2{
     text-align: center;
     margin-bottom:10px;
 }
@@ -364,7 +364,7 @@ label{
     font-size: 120%;
 }
 
-.text_input{
+.text-input{
     color:#fff;
     background:transparent;
     width:100%;
@@ -374,11 +374,11 @@ label{
     border-radius:5px;
 }
 
-.text_input:hover{
+.text-input:hover{
     border-color:rgb(10, 9, 105);
 }
 
-.submit_button{
+.submit-button{
     color:rgb(10, 9, 105);
     font-size: 150%;
     padding:15px;
@@ -388,7 +388,7 @@ label{
     border-radius: 5px;
 }
 
-.submit_button:hover{
+.submit-button:hover{
     border: 3px solid #fff;
 }
 
@@ -396,12 +396,12 @@ label{
 
 @media screen and (max-width:1200px) {
     
-    #left_part, #right_part{
+    #left-part, #right-part{
         width: 100%;
         float:left;
     }
 
-    .circle_container{
+    .circle-container{
         clear:both;
         margin:0 auto;
     }
@@ -426,7 +426,7 @@ label{
 
     /*Queries for the home*/
 
-    #activities_cotnainer div{
+    #activities-cotnainer div{
         width:100%;
         clear:both;
         height:300px;
@@ -438,7 +438,7 @@ label{
     
     /*Queries for the form*/
 
-    #main_form{
+    #main-form{
         width:104%;
     }
     
@@ -459,22 +459,22 @@ label{
         line-height: 25px;
     }
 
-    .nav_button{
+    .nav-button{
         padding:0; 
     }
     
-    #contact_boxes{
+    #contact-boxes{
         margin:0 auto;
         padding:0; 
     }
 
-    #phonemail_box, #adress_box{
+    #phonemail-box, #adress-box{
         float:none;
         margin:30px auto;
         text-align: center;
     }
 
-    #contact_boxes hr{
+    #contact-boxes hr{
         width: 100%;
     }
 }
@@ -484,7 +484,7 @@ label{
         padding:10px;
     }
 
-    #cover_box{
+    #cover-box{
         height:800px;
         top:50%;
     }
@@ -502,7 +502,7 @@ label{
         padding-right:0px;
     }
 
-    #cover_box{
+    #cover-box{
         width:100%;
         height:800px;
     }
@@ -516,7 +516,7 @@ label{
 /*Really Small screens*/
 @media screen and (max-width:425px) {
 
-    #cover_box{
+    #cover-box{
         width:100%;
         height:800px;
     }
