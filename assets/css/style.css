@@ -4,6 +4,7 @@
     margin:0;
     padding:0;
     border:none;
+
 }
 
 body{
@@ -80,7 +81,7 @@ hr{
     left:8%;
     top:160px;
     height:200px;
-    width: 100%;
+    width: 89%;
     background-color: rgba(10, 9, 105, 0.6);
     padding-left:3%;
     padding-top:30px;
@@ -167,7 +168,6 @@ li:hover, a:hover{
 /*Middle Section*/
 
 #middle{
-    width:100%;
     height:500px;
     background:rgb(10, 9, 105);
     padding-left:20px;
@@ -395,13 +395,7 @@ label{
 /*Media Query*/
 
 @media screen and (max-width:1200px) {
-    #hero_pic{
-        width: 102%;
-    }
-    #activities_cotnainer{
-        width:102%;
-    }
-
+    
     #left_part, #right_part{
         width: 100%;
         float:left;
@@ -498,18 +492,6 @@ label{
     #middle{
         height:1000px;
     }
-
-    #hero_pic{
-        width:105%;
-    }
-
-    #activities_cotnainer{
-        width:105%;
-    }
-
-    footer{
-        width:104%;
-    }
 }
 
 @media screen and (max-width:450px) {
@@ -518,7 +500,6 @@ label{
         height:1500px;
         padding-left:0px;
         padding-right:0px;
-        width:108%;
     }
 
     #cover_box{
@@ -538,14 +519,6 @@ label{
     #cover_box{
         width:100%;
         height:800px;
-    }
-
-    #hero_pic{
-        width: 108%;
-    }
-
-    #activities_cotnainer{
-        width:108%;
     }
 }
 
