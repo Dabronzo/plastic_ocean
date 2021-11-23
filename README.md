@@ -38,11 +38,25 @@ The project was made just to gather people interested in keeping the beach clean
 ![Contact info](/assets/images/contact.png)
 
 ## 6 Footer
--To encourage the user to follow the project in other social media the future brings the three links (Instagram, Facebook and twitter), each link open in a blank tab in order to bring a better user experience.
+
+- To encourage the user to follow the project in other social media the future brings the three links (Instagram, Facebook and twitter), each link open in a blank tab in order to bring a better user experience.
 
 ![footer with the social media links](/assets/images/footer.png)
 
 ## 7 The Sign Up Page
--
+
+- This page allows the usuer to sign up to be part of the **Plastic Free Ocean** by filling the fields. This will privide the owner of the site to have the right information to send news and events to members of the project.
+- The desing have a big picture of people holding hands at the beach to inspire a sense of union and teamwork. The form appear after a few seconds with an animation. Has a opaque background to provide a good contrast with body page picture.
+- The fields of name and email are mandatory, the checkbox provide to the usuer choose to particupate of the meetings or just the clean up events.
+- The **Footer** and the **Header** keeps the same style and colours of the main page, with links for the usuer navegation.
+
+![sign-up page](/assets/docs/sign-up.png)
+
+#Testing
+
+- Hereby will be explained the all the testing that was done to ensure that all the features in the website works properly and deliver what is expected.
+
+##HTML
+- For the HTML, tested with [W3C validator](https://validator.w3.org/) 
 
 
