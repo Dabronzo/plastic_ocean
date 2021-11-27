@@ -308,6 +308,66 @@ footer ul i{
     color:#fff;
 }
 
+/*Stying for the infogallery*/
+
+.cards{
+    width: 60%;
+    height:400px;
+    margin:auto;
+    margin-top:30px;
+}
+
+#info-content{
+    margin-top:110px;   
+}
+
+#info-content h2{
+    font-size: 250%;
+    color: rgb(10, 9, 105);
+    text-align: center;
+}
+
+#person{
+    background-color: blue;
+   
+
+}
+
+#enviroment{
+    background-color: green;
+}
+
+#todo{
+    background-color: red;
+}
+
+/*Tests for animation*/
+
+@supports(animation-timeline: works){
+
+    #enviroment{
+        animation: 1s linear forwards side-sliding;
+        animation-timeline: slide-timeline;
+        opacity: 0;
+        transform: translate(50%);
+    }
+
+    @scroll-timeline slide-timeline{
+        time-range: 1.7s;
+    }
+
+    @keyframes side-sliding {
+        from{
+            opacity: 0;
+            transform: translate(50%);
+        }
+        to{
+            opacity: 1;
+            transform: translate(0%);
+        }
+    }
+}
+
 /*Styling for the form*/
 
 #main-form{
