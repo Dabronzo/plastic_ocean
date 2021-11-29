@@ -28,10 +28,22 @@ h1, h2{
     text-transform: uppercase;
 }
 
+span{
+    font-size: large;
+    font-weight: bolder;
+
+}
+
 hr{
     border-top: 1px solid #fff;
     width:80%;
     margin: 5px 0 10px 0;
+}
+
+.text-link {
+    color: #fff;
+    font-weight: bolder;
+    text-transform: uppercase;
 }
 
 #logo{
@@ -442,6 +454,7 @@ footer ul i{
     rgba(0, 0, 0, .5),
     rgba(0, 0, 0, 0));
     border-radius: 8px;
+
 }
 
 #overlay-todo h3{
@@ -472,7 +485,6 @@ footer ul i{
     margin: 55px auto;
     letter-spacing: 1mm;
 }
-
 
 /*Styling for the form*/
 
@@ -627,10 +639,10 @@ label{
 
     #menu{
         clear:both;
-        float:left;
-        margin-left:0px;
-        margin-bottom:0px;
         line-height: 25px;
+        width: 100%;
+        margin-left: -4%;
+
     }
 
     .nav-button{
@@ -760,6 +772,10 @@ label{
 /*Really Small screens*/
 @media screen and (max-width:425px) {
 
+    #menu li{
+        font-size: 70%;
+    }
+
     #cover-box{
         width:100%;
         height:800px;
@@ -770,4 +786,23 @@ label{
     #logo{
         font-size: 160%;
     }
+    #menu {
+        margin-left: -2%;
+        font-size: 85%;
+    }
+
+    #image-rounded{
+        height: 80%;
+        width: 80%;
+        margin: 0 auto;
+    }
+    #activities-cotnainer h3 {
+        padding: 10px;
+        font-size: 150%;
+    }
+    #contact-boxes {
+        padding: 0;
+        margin-left: 35px;
+    }
 }
+
