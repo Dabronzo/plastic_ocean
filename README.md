@@ -119,17 +119,21 @@ However this effect only happens one time, when the page is loaded for the first
 # Credits
 
 ## Content
- - **Information Content** The numbers in the **Plastic and Tourism** where taken from the organization **One Planet Network** Link: [Oneplanetnetwork Website](https://www.oneplanetnetwork.org/programmes/sustainable-tourism/global-tourism-plastics-initiative/tourisms-plastic-pollution-problem)
+ ### Information Content ### 
+ - The numbers in the **Plastic and Tourism** where taken from the organization **One Planet Network** Link: [Oneplanetnetwork Website](https://www.oneplanetnetwork.org/programmes/sustainable-tourism/global-tourism-plastics-initiative/tourisms-plastic-pollution-problem)
  
- - **Design Inspirational** The website of the organization **Ocean Clean Up** was the inspirational model that I used to create this project, Link: [Ocean Clean Up Website](https://theoceancleanup.com/?utm_source=google_cpc&utm_medium=ad_grant&utm_campaign=branded&gclid=Cj0KCQiAkZKNBhDiARIsAPsk0WjQJN4JU_kkAtzpFVFDjB5irjVHj5LMTuRBJ8IkCrHT-flXobVXpOkaArD_EALw_wcB)
+ ### Design Inspirational ### 
+ - The website of the organization **Ocean Clean Up** was the inspirational model that I used to create this project, Link: [Ocean Clean Up Website](https://theoceancleanup.com/?utm_source=google_cpc&utm_medium=ad_grant&utm_campaign=branded&gclid=Cj0KCQiAkZKNBhDiARIsAPsk0WjQJN4JU_kkAtzpFVFDjB5irjVHj5LMTuRBJ8IkCrHT-flXobVXpOkaArD_EALw_wcB)
+ - The section **Activities** on this project was inspired by the website [Love Running](https://dabronzo.github.io/love-runnig/)
 
- - **External Repository:** The dockerfile was provided by the **Code Institute** as part of the Full Stack software Developer course.
+ ### External Repository: ### 
+ - The dockerfile was provided by the **Code Institute** as part of the Full Stack software Developer course.
 
- - **Design Inspiration:** The section **Activities** on this project was inspired by the website **Love Running**.
+ ### Animation Tutorial: ### 
+ - The animations in this website was done following this tutorial of the YouTube Channel **Divinector**, Link: [Tutorial on Youtube](https://www.youtube.com/watch?v=bPbnX9_K1y4)
 
- - **Animation Tutorial:** The animations in this website was done following this tutorial of the YouTube Channel **Divinector**, Link: [Tutorial on Youtube](https://www.youtube.com/watch?v=bPbnX9_K1y4)
-
- - **Glass Effect** The "glass" effect on the sign-up page is taken from the **Online Tutorials** YouTube channel, Link: [Glass effect tutorial](https://www.youtube.com/watch?v=1u8qTcFeQzk)
+ ### Glass Effect ### 
+ - The "glass" effect on the sign-up page is taken from the **Online Tutorials** YouTube channel, Link: [Glass effect tutorial](https://www.youtube.com/watch?v=1u8qTcFeQzk)
 
  ## Media
 
