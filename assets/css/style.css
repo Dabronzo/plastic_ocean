@@ -334,7 +334,7 @@ footer ul i{
 }
 
 #person{
-    background: url("/assets/images/plastic_planet.png") no-repeat center center;
+    background: url("../images/pexels-julia-m-cameron3.jpg") no-repeat center center;
     background-size: cover;
     border-radius: 8px;
 }
@@ -425,7 +425,7 @@ footer ul i{
 /*To Do*/
 
 #todo{
-    background: url("/assets/images/pexels-marta-ortigosa-3480494-min.jpg") no-repeat center center;
+    background: url("../images/pexels-marta-ortigosa-3480494-min.jpg") no-repeat center center;
     background-size: cover;
     transform: scaleX(-1);
     border-radius: 8px;
