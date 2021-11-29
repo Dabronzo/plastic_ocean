@@ -10,66 +10,71 @@ The website was deployed to GitHub web pages. Link: [Plastic Free Ocean](https:/
 
 ## Strategy
 
-The main goal of the project is to inspire more people to join the project, making the **Plastic Free Ocean** grown to have more impact on the local community. The website displays pictures and information to highlight the plastic pollution problem also bring solutions that can be reachable to everyone.
+The main goal of the project is to inspire more people to join the project, making the **Plastic Free Ocean** grown to have more impact on the local community. 
+
+### B2C
+ The main focus is to bring a better user experience and an intuitive navigation. The website displays pictures and information to highlight the plastic pollution problem and bring solutions that can be accessible to everyone. Due to the nature of the project the B2C has more emphasis on the development. Most of the pictures are in a big scale and have a good quality, causing an emotional trigger and aiming at higher engagement with the users. 
+
+### B2B
+As an important part of the goals in this project is some tool that allows the owner/organization of the **Plastic Free Ocean** in gathering some data for the members, with this in mind a form was created to collect the data such as name, email and options of events to attend. The most important information is the members email, allowing the organization to send information about the project and announce new events. The user can also enter some information about which events want to participate. 
 
 ## Scope
 
-The website is developed to have a very simple and intuitive interface, allowing either first time users and regular users to navigate and get information about the project and its activities. Consist of three pages, **Home** as the landing page where is displayed some info about the project, activities calendar and contact info. **Plastic and Pollution** is an info gallery page made to highlight the problem with the plastic in the ocean and inspire people to take small actions to mitigate it. A **Sign Up** where the user can sign up and participate in the project and also allows the organization of the project in keeping a database for the members.
+The website is developed to have a very simple and intuitive interface, allowing both first time users and regular users to navigate and find information about the project and its activities. It consists of three pages: **Home**, as the landing page, where
+partial information about the project is displayed. Additionally, you can find activities calendar and contact information there. **Plastic and Pollution** is a gallery page, created to highlight the problem of plastic in the ocean and inspire people to take small actions to mitigate it. **Sign Up** is a page for the user to sign up and participate in the project. It also serves the organisation of the project by keeping a database of all members.
 
 ## Structure
 
-To keep the project consistent and intuitive the navigation bar remains the same through the pages. Hover animations on the links where the provide a more intuitive behaviour and visual feedback to the user.
+To keep the project consistent and intuitive The navigation bar remains the same through the pages to keep the project consistent and intuitive. Hover animations on the links which provide a more instinctive behaviour and visual sensation(information) to the user.
+The user can navigate through the pages also with links on texts along the page, so if the user is reading about joining the program on the main page the **Join** is highlighted and works as a link the sign-up page.
+
 
 ## Skeleton
 
-Due to its own nature the project has a few and simple features, consisting in pictures, animations, text information and a sign up form. The navbar and the footer are consistent and repeat along the pages.
+The project has a few simple features due to its own nature: pictures, animations, text information and a sign up form. The navbar and the footer are consistent and repeat along the pages.
 
-Below is a wireframe model of the project made with **Balsamic Wireframes** 
-The final project turned out to be a bit different.
+Below is a wireframe model of the project made with **Balsamic Wireframes**. The final project turned out to be a bit different.
 
-![balsamic wireframe](/docs/plastic-ocean-wireframe-small.png)
+![balsamic wireframe](/docs/plastic-ocean-wireframe-new.png)
 
 ## Surface
 
-Simple colours based on tons of blue and white were used in the design giving a good contrast to headers, paragraphs and links. The navigation bar links on the page where the user currently is remaining with a different background so intuitive reminding where the user is. The texts have some spacing between the letters to make easier reading
+Simple colours based shades of blue and white were used in the design, giving a good contrast between the headers, paragraphs and the links. The navigation bar reacts to users’ location within the page by creating a different background mark, reminding the user where he is. The spacing between the letters in the text makes it easier to read.
 
 # Responsive
 
-The website is designed to be totally responsive and work in tablets and smartphones.
-Bellow is the responsive visualization:
+The website is designed to be totally responsive, working on computers, tablets and smartphones. Bellow is the responsive visualisation:
 
 ![Am I responsive ScreenShot](/docs/responsive.png)
 
 # Features
 ## 1 Navigation Bar
-- Featured the three links for the other parts of the site, "Home" and "Plastic and Tourism", sections of the main site and the "Sign Up" that brings the user to the form page.
-- When the links are hoovered the background and the color of the text changes to give the user more a clear idea about which link is being hoovered.
-- Is fully responsive, the logo and the menu links change places and the layout fit in smaller screens. Also, when the user is the "Sign Up" page the link gets with a different color showing which page is currently on.
+- It features three links which redirect to the other parts of the site. “Home”, "Plastic and Tourism" are the sections of the main site, while the "Sign Up" brings the user to the page with the form.
+- When the user hovers over the links, the background and the colour of the text changes to give the user a more clear idea about which of the links the user is on.
+- The bar is fully responsive, the logo and the menu links adjust to smaller screens by changing the layout. Additionally, when the user is on the "Sign Up" page, its link gets a different colour, showing which page the user is currently on.
 
 ![Navegation bar screenshot](/docs/navbar-final.png)
 
 ## 2 The Landing Image
-- Include the photographic of a turtle that has a blueish gradient that gets more opaque by the bottom of the picture and an overlay text with a catching phrase.
-- The overlay text has an animation where the sentences appear in different timings.
-
+- It includes a photograph of a turtle with a blue shade gradient which gets more opaque by the bottom of the picture and an overlay text with a catching phrase.
+- The overlay text has an animation where the sentences appear at different timings.
 ![Landing Picture](/docs/landingpic.png)
 
 ## 3 About Us
-- In this section the user will find some information about the project, the activities and the meetings and also the party. This should encourage the user to attend to the events and socialize.
-- Is also responsive, in smaller screens the two paragraphs and picture will adjust to optimize the visualization.
+- In this section the user will find some information about the project, its activities, the meetings and lastly, the party. This should encourage the user to attend the events and socialise.
+- It’s also responsive, in smaller screens the two paragraphs and picture adjust to optimise the visualisation.
 
-![About Us screenShot](/docs/aboutus.png)
+![About Us screenShot](/docs/about-us.png)
 
 ## 4 Activities
-- Here the layout shows three "cards", each one holds information about when, where and which kind of activities hosted by the project.
-- The responsive behavior for smaller screen will show the cards in a vertical orientation to make the content more visible to the users.
+- The layout shows three "cards" here, each one holding information about the time, location and the type of activities that will be hosted by the project.
+- The responsive behaviour for the smaller screen will change cards layout from horizontal to vertical, making the content more user friendly.
 
-![Activities cards](/docs/activities.png)
+![Activities cards](/docs/activities-new.png)
 
 ## 5 Contact
-- This section brings some simple contact information of the organization project such as email, address and phone number.
-
-![Contact info](/docs/contact.png)
+- This section gives contact information about the organisation, such as email, address and phone number.
+![Contact info](/docs/contac-new.png)
 
 ## 6 Footer
 
@@ -88,7 +93,7 @@ The Footer and the Header keeps the same style and colours of the main page, wit
 
 ## 8 The Plastic and Tourism Page
 
- - This page brings to the user some information about the plastic pollution related to tourism activities. Pictures and information are displayed to show how serious and relevant is the subject, but also to inspire the user to take small but relevant actions to mitigate this problem.
+ - This page brings the user information about the plastic pollution related to tourism activities. The information and pictures are displayed in order to show how serious and relevant the subject is and to inspire the user to take actions to mitigate this problem.
 
 ![plastic and tourism page](/docs/plastic-tourism-final.png)
 
