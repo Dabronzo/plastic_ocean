@@ -2,9 +2,9 @@
 
 The Plastic Free Ocean project is a community that is concerned about the plastic pollution in beaches in Den Haag, Netherlands. The beaches of Scheveninger are highly visited by tourists from all over The Netherlands and other neighbor countries. Along the coast there are a large number of beach bars and food kiosks where, especially during the summer. So keeping the beach clean is good not only for the environment, but also to keep the beauty and a nice place for the tourist.The project was made just to gather people interested in keeping the beach clean and also to do our part in trying to lower our impact on Earth.
 
-# Deploiment
+# Deployment
 
-The website was deployed to GitHub web pages. Here is the link [Plastic Free Ocean](https://dabronzo.github.io/plastic_ocean/index.html)
+The website was deployed to GitHub web pages. Link: [Plastic Free Ocean](https://dabronzo.github.io/plastic_ocean/index.html)
 
 # User Experience
 
@@ -33,7 +33,7 @@ The final project turned out to be a bit different.
 
 Simple colours based on tons of blue and white were used in the design giving a good contrast to headers, paragraphs and links. The navigation bar links on the page where the user currently is remaining with a different background so intuitive reminding where the user is. The texts have some spacing between the letters to make easier reading
 
-# Resonsive
+# Responsive
 
 The website is designed to be totally responsive and work in tablets and smartphones.
 Bellow is the responsive visualization:
@@ -41,7 +41,7 @@ Bellow is the responsive visualization:
 ![Am I responsive ScreenShot](/docs/responsive.png)
 
 # Features
-## 1 Navegation Bar
+## 1 Navigation Bar
 - Featured the three links for the other parts of the site, "Home" and "Plastic and Tourism", sections of the main site and the "Sign Up" that brings the user to the form page.
 - When the links are hoovered the background and the color of the text changes to give the user more a clear idea about which link is being hoovered.
 - Is fully responsive, the logo and the menu links change places and the layout fit in smaller screens. Also, when the user is the "Sign Up" page the link gets with a different color showing which page is currently on.
@@ -86,21 +86,24 @@ The Footer and the Header keeps the same style and colours of the main page, wit
 
 ![sign-up page](/docs/sign-up-final.png)
 
-## 8 Plastic and Tourism Page
+## 8 The Plastic and Tourism Page
 
  - This page brings to the user some information about the plastic pollution related to tourism activities. Pictures and information are displayed to show how serious and relevant is the subject, but also to inspire the user to take small but relevant actions to mitigate this problem.
 
 ![plastic and tourism page](/docs/plastic-tourism-final.png)
-
-## Future Features
 
 # Testing
 
 - Hereby will be explained the all the testing that was done to ensure that all the features in the website works properly and deliver what is expected.
 
 ## HTML and CSS
-- The HTML, tested with no errors. Link to [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdabronzo.github.io%2Fplastic_ocean%2Fform.html) 
-- The CSS was tested with no errors. Link to [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdabronzo.github.io%2Fplastic_ocean%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+### The HTML, tested with no errors. 
+- Link to the tests:
+- [W3C validator index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdabronzo.github.io%2Fplastic_ocean%2Findex.html)
+- [W3C validator infogallery.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdabronzo.github.io%2Fplastic_ocean%2Finfogallery.html)
+- [W3C validator form.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdabronzo.github.io%2Fplastic_ocean%2Fform.html)
+### The CSS was tested with no errors. 
+- Link to [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdabronzo.github.io%2Fplastic_ocean%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Lighthouse
 - Others parameters were tested with the Google's developers tool **Lighthouse**, the results are in the picture bellow.
