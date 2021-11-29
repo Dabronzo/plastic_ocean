@@ -126,6 +126,10 @@ hr{
 
 /*Header Menu*/
 
+header{
+    background-color: #fff;
+}
+
 #menu{
     font-size: 110%;
     letter-spacing: 4px;
@@ -160,7 +164,7 @@ hr{
     color:#fff;
 }
 
-li:hover, a:hover{
+.trigger-hover:hover, a:hover{
     background-color: rgb(10, 9, 105);
     color:#fff;
 }
@@ -316,14 +320,14 @@ footer ul i{
     margin:auto;
     margin-top:30px;
     margin-bottom:20px;
-
 }
 
 #info-content{
-    margin-top:40px;   
+    background-color: rgb(198, 191, 240);
 }
 
-#info-content h2{
+#info-content > h2{
+    padding: 20px;
     font-size: 250%;
     color: rgb(10, 9, 105);
     text-align: center;
@@ -332,6 +336,7 @@ footer ul i{
 #person{
     background: url("/assets/images/pexels-julia-m-cameron3.jpg") no-repeat center center;
     background-size: cover;
+    border-radius: 8px;
 }
 
 /*styling for the different overlayers in the cards*/
@@ -342,82 +347,79 @@ footer ul i{
     height: 500px;
     background-image: linear-gradient(to left, 
     rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1),
     rgba(0, 0, 0, .7),
     rgba(0, 0, 0, .5),
     rgba(0, 0, 0, .2), 
     rgba(0, 0, 0, 0));
+    border-radius: 8px;
 }
 
 #overlay-person ul{
+    width: 40%;
     clear: right;
     float:right;
     margin-top:30px;
-    margin-right: 60px;
+    margin-right: 6px;
+    list-style: none;
 }
 
 #overlay-person ul li{
     color: #fff;
-    font-size: 150%;
+    font-size: 140%;
     margin:30px auto;
-
-
+    letter-spacing: 1mm;
 }
 
 #overlay-person h3{
-    color: #fff;
-    font-size: 180%;
-    float: right;
-    margin-top: 50px;
-    margin-right:18px;
-
-}
-
-/*Enviroment*/
-
-#enviroment{
-    background: url("/assets/images/pexels-david-dibert-1299391-min.jpg") no-repeat center center;
-    background-size: cover;
-}
-
-#overlay-enviroment{
-    width:100%;
-    height: 500px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 1),
-    rgba(0, 0, 0, .7),
-    rgba(0, 0, 0, .5),
-    rgba(0, 0, 0, .2), 
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, .2),
-    rgba(0, 0, 0, .5),
-    rgba(0, 0, 0, .7),
-    rgba(0, 0, 0, 1));
-    
-}
-
-#overlay-enviroment h3{
-    color: #fff;
-    font-size: 180%;
-    text-align: center;
-    padding-top: 20px;
-
-}
-
-#overlay-enviroment li{
+    width: 40%;
     color: #fff;
     font-size: 150%;
-    margin:30px auto;
+    float: right;
+    margin-top: 80px;
+    margin-right:6px;
+    letter-spacing: 0.5mm;
+    text-transform: uppercase;
+
 }
 
-#left-list{
-    float: left;
-    margin-top: 100px;
-    margin-left: 30px;
+/*middle Section*/
+
+.middle-card{
+    height:300px;
+
 }
 
-#right-list{
-    float:right;
-    margin-top: 100px;
-    margin-right: 30px;
+.middle-card > div{
+    text-align: center;
+    width: 33.33%;
+    height:300px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    padding: 80px 0 20px 0;
+    float:left;
+    
+}
+.middle-card p{
+    color: #fff;
+    letter-spacing: 0.4mm;
+    text-transform: uppercase;
+}
+
+.middle-card h3{
+    font-size: 400%;
+    font-weight:900;
+    color: #fff;
+
+}
+
+#middle-section{
+    border-radius: 8px;
+    background-color: rgb(10, 9, 105);
+}
+
+#center{
+    margin: 0 auto;
 }
 
 /*To Do*/
@@ -426,6 +428,7 @@ footer ul i{
     background: url("/assets/images/pexels-marta-ortigosa-3480494-min.jpg") no-repeat center center;
     background-size: cover;
     transform: scaleX(-1);
+    border-radius: 8px;
 }
 
 #overlay-todo{
@@ -434,29 +437,40 @@ footer ul i{
     height:500px;
     background-image: linear-gradient(to right,
     rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, .9),
     rgba(0, 0, 0, .7),
     rgba(0, 0, 0, .5),
     rgba(0, 0, 0, 0));
+    border-radius: 8px;
 }
 
 #overlay-todo h3{
     color:#fff;
-    font-size: 180%;
-    padding-top:50px;
-    padding-left: 30px;
+    font-size: 150%;
+    float:left;
+    margin-top: 80px;
+    margin-left: 30px;
+    letter-spacing: 0.5mm;
+    text-transform: uppercase;
+    
+
 
 }
 
 #overlay-todo ul{
-    margin-top: 100px;
-    margin-left: 50px;
-    color:#fff;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #fff;
+    clear: left;
+    float: left;
+    list-style: none;
 }
 
 #overlay-todo li{
     color: #fff;
-    font-size: 150%;
-    margin:30px auto;
+    font-size: 140%;
+    margin: 55px auto;
+    letter-spacing: 1mm;
 }
 
 
@@ -547,6 +561,14 @@ label{
 /*Media Query*/
 
 @media screen and (max-width:1200px) {
+
+    .middle-card h3{
+        font-size: 300%;
+    }
+    
+    .middle-card p {
+        font-size: 90%;
+    }
     
     #left-part, #right-part{
         width: 100%;
@@ -632,6 +654,23 @@ label{
 }
 
 @media screen and (max-width:778px) {
+
+    .middle-card p {
+        font-size: 80%;
+    }
+    .middle-card h3 {
+        font-size: 250%
+    }
+
+    #overlay-person ul li {
+        letter-spacing: 0.4mm;
+        font-size: 120%;
+    }
+
+    #overlay-person h3{
+        font-size: 120%;
+    }
+
     #menu li{
         padding:10px;
     }
@@ -647,6 +686,59 @@ label{
 }
 
 @media screen and (max-width:450px) {
+
+    #overlay-todo{
+        background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6));
+    }
+
+    #overlay-todo li{
+        width: 100%;
+        font-size:110%;
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    #overlay-todo h3{
+        font-size: 110%;
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+        margin-top: 50%;
+    }
+
+    .middle-card h3{
+        margin-top: 17px;
+    }
+
+    .middle-card > div{
+        width: 100%;
+        clear: both;
+        height: 100px;
+        padding: 0;
+    }
+
+    #overlay-person{
+        background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6));
+    }
+
+    #overlay-person ul {
+        width:100%;
+        margin:0 auto;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    #overlay-person h3 {
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+        margin-top: 50%;
+
+    }
+
+    .cards {
+        width: 100%;
+    }
 
     #middle{
         height:1500px;
