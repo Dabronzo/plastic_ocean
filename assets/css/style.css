@@ -450,7 +450,6 @@ footer ul i{
     rgba(0, 0, 0, .5),
     rgba(0, 0, 0, 0));
     border-radius: 8px;
-
 }
 
 #overlay-actions-to h3{
@@ -461,9 +460,6 @@ footer ul i{
     margin-left: 30px;
     letter-spacing: 0.5mm;
     text-transform: uppercase;
-    
-
-
 }
 
 #overlay-actions-to ul{
@@ -475,7 +471,7 @@ footer ul i{
     list-style: none;
 }
 
-#overlay-actions-toli{
+#overlay-actions-to li{
     color: #fff;
     font-size: 140%;
     margin: 55px auto;
