@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&display=swap');
 
+/*general styling*/
+
 *{
     margin:0;
     padding:0;
     border:none;
-
 }
 
 body{
@@ -18,10 +19,6 @@ a{
     text-decoration: none;
 }
 
-header{
-    overflow: hidden;
-}
-
 h1, h2{
     font-family: Montserrat, sans-serif;
     color:#fff;
@@ -31,7 +28,6 @@ h1, h2{
 span{
     font-size: large;
     font-weight: bolder;
-
 }
 
 hr{
@@ -46,12 +42,7 @@ hr{
     text-transform: uppercase;
 }
 
-#logo{
-    float:left;
-    background-color: rgb(10, 9, 105);
-    font-size: 200%;
-    padding:0 20px 0 20px;
-}
+/*hero pic and related*/
 
 #outer-hero{
     width: 100%;
@@ -63,14 +54,12 @@ hr{
 #hero-pic{
     width:100%;
     height: 600px;
-    background:url("../images/rsz_pexels-jeremy-bishop-2765872.jpg") no-repeat center center;
+    background:url("../images/jeremy_bishop_landincpic.jpg") no-repeat center center;
     background-size: cover;
     margin: inherit;
     position: relative;
     background-color: rgb(10, 9, 105);
     background-blend-mode:lighten;
-
-
 }
 
 #gradient-layer{
@@ -86,6 +75,7 @@ hr{
      rgba(10, 9, 105,1));
 }
 
+/*animated layer that covers the hero pic*/
 /*cover box front page*/
 
 #coverbox-front{
@@ -105,15 +95,13 @@ hr{
     color:#fff;
     margin-top:14px;
     animation: ani_head3 3s forwards;
-
 }
 
 #coverbox-front h2 {
     font-size: 250%;
-    
 }
 
-/*animation for hero pic*/
+/*animation for coverbox slides to left*/
 
 @keyframes ani_hero{
     0%{
@@ -135,8 +123,18 @@ hr{
     }
 }
 
-
 /*Header Menu*/
+
+#logo{
+    float:left;
+    background-color: rgb(10, 9, 105);
+    font-size: 200%;
+    padding:0 20px 0 20px;
+}
+
+header{
+    overflow: hidden;
+}
 
 header{
     background-color: #fff;
@@ -224,7 +222,7 @@ header{
 }
 
 #image-rounded{
-    background:url('../images/pexels-ron-lach-9034660sqr-min.jpg') no-repeat center center;
+    background:url('../images/ron_lach_collecting.jpg') no-repeat center center;
     background-size: cover;
     height:100%;
     border-radius:50%;
@@ -233,7 +231,7 @@ header{
 /*Activities*/
 
 #activities-cotnainer{
-    background:url('../images/mark-harpur-foydNaDU-Rg-unsplash-min.jpg') no-repeat center center;
+    background:url('../images/mark_plastic_tips.jpg') no-repeat center center;
     background-color:rgb(66, 85, 255);
     background-blend-mode: lighten;
     background-size:cover;
@@ -333,7 +331,7 @@ footer ul i{
     margin-top:30px;
     margin-bottom:20px;
 }
-
+/*id for the body in infogallery.html*/
 #info-content{
     background-color: rgb(198, 191, 240);
 }
@@ -346,12 +344,13 @@ footer ul i{
 }
 
 #person{
-    background: url("../images/pexels-julia-m-cameron3.jpg") no-repeat center center;
+    background: url("../images/pexels_julia_cameron.jpg") no-repeat center center;
     background-size: cover;
     border-radius: 8px;
 }
 
 /*styling for the different overlayers in the cards*/
+
 /*person container*/
 
 #overlay-person{
@@ -392,14 +391,12 @@ footer ul i{
     margin-right:6px;
     letter-spacing: 0.5mm;
     text-transform: uppercase;
-
 }
 
 /*middle Section*/
 
 .middle-card{
     height:300px;
-
 }
 
 .middle-card > div{
@@ -409,9 +406,9 @@ footer ul i{
     border: 2px solid #fff;
     box-sizing: border-box;
     padding: 80px 0 20px 0;
-    float:left;
-    
+    float:left; 
 }
+
 .middle-card p{
     color: #fff;
     letter-spacing: 0.4mm;
@@ -422,7 +419,6 @@ footer ul i{
     font-size: 400%;
     font-weight:900;
     color: #fff;
-
 }
 
 #middle-section{
@@ -434,16 +430,16 @@ footer ul i{
     margin: 0 auto;
 }
 
-/*To Do*/
+/*actions-to */
 
-#todo{
-    background: url("../images/pexels-marta-ortigosa-3480494-min.jpg") no-repeat center center;
+#actions-to{
+    background: url("../images/marta_ortigosa_bottle.jpg") no-repeat center center;
     background-size: cover;
     transform: scaleX(-1);
     border-radius: 8px;
 }
 
-#overlay-todo{
+#overlay-actions-to{
     transform: scaleX(-1);
     width:100%;
     height:500px;
@@ -457,7 +453,7 @@ footer ul i{
 
 }
 
-#overlay-todo h3{
+#overlay-actions-to h3{
     color:#fff;
     font-size: 150%;
     float:left;
@@ -470,7 +466,7 @@ footer ul i{
 
 }
 
-#overlay-todo ul{
+#overlay-actions-to ul{
     margin-top: 30px;
     margin-left: 30px;
     color: #fff;
@@ -479,7 +475,7 @@ footer ul i{
     list-style: none;
 }
 
-#overlay-todo li{
+#overlay-actions-toli{
     color: #fff;
     font-size: 140%;
     margin: 55px auto;
@@ -571,6 +567,7 @@ label{
 }
 
 /*Media Query*/
+/*Tablets and small Computers*/
 
 @media screen and (max-width:1200px) {
 
@@ -606,7 +603,7 @@ label{
     }
 }
 
-
+/*small tablets and other devices*/
 
 @media screen and (max-width:900px) {
 
@@ -620,13 +617,9 @@ label{
     }
 }
 
-@media screen and (max-width:850px) {
-    
-    /*Queries for the form*/
+/*big screen phones*/
 
-    #main-form{
-        width:104%;
-    }
+@media screen and (max-width:850px) {
     
     #logo{
         color:rgb(10, 9, 105);
@@ -642,11 +635,16 @@ label{
         line-height: 25px;
         width: 100%;
         margin-left: -4%;
-
     }
 
     .nav-button{
         padding:0; 
+    }
+
+     /*Queries for the form*/
+
+    #main-form{
+        width:104%;
     }
     
     #contact-boxes{
@@ -697,20 +695,22 @@ label{
     }
 }
 
+/*average smartphone screens*/
+
 @media screen and (max-width:450px) {
 
-    #overlay-todo{
+    #overlay-actions-to{
         background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6));
     }
 
-    #overlay-todo li{
+    #overlay-actions-to li{
         width: 100%;
         font-size:110%;
         margin: 30px auto;
         text-align: center;
     }
 
-    #overlay-todo h3{
+    #overlay-actions-to h3{
         font-size: 110%;
         margin-left: 0;
         width: 100%;
